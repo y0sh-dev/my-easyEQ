@@ -28,8 +28,8 @@
             "output-gain": 0.0,
             "split-channels": false,
             "left": {
-                "band0":  { "frequency": 16.0,    "gain": 0.5,  "mode": "APO (DR)", "q": 0.8, "type": "Bell" },
-                "band1":  { "frequency": 20.0,    "gain": 0.8,  "mode": "APO (DR)", "q": 0.8, "type": "Bell" },
+                "band0":  { "frequency": 16.0,    "gain": 0.5,  "mode": "APO (DR)", "q": 0.5, "type": "Bell" },
+                "band1":  { "frequency": 20.0,    "gain": 0.8,  "mode": "APO (DR)", "q": 0.5, "type": "Bell" },
                 "band2":  { "frequency": 25.0,    "gain": 1.0,  "mode": "APO (DR)", "q": 0.8, "type": "Bell" },
                 "band3":  { "frequency": 31.5,    "gain": 1.2,  "mode": "APO (DR)", "q": 0.8, "type": "Bell" },
                 "band4":  { "frequency": 40.0,    "gain": 0.6,  "mode": "APO (DR)", "q": 0.8, "type": "Bell" },
@@ -57,13 +57,13 @@
                 "band26": { "frequency": 6300.0,  "gain": -0.8, "mode": "APO (DR)", "q": 1.8, "type": "Bell" },
                 "band27": { "frequency": 8000.0,  "gain": -0.6, "mode": "APO (DR)", "q": 1.8, "type": "Bell" },
                 "band28": { "frequency": 10000.0, "gain": 0.5,  "mode": "APO (DR)", "q": 1.0, "type": "Bell" },
-                "band29": { "frequency": 12500.0, "gain": 0.8,  "mode": "APO (DR)", "q": 1.4, "type": "Bell" },
+                "band29": { "frequency": 12500.0, "gain": 1.0,  "mode": "APO (DR)", "q": 1.8, "type": "Bell" },
                 "band30": { "frequency": 16000.0, "gain": 1.2,  "mode": "APO (DR)", "q": 1.1, "type": "Bell" },
                 "band31": { "frequency": 20000.0, "gain": 1.2,  "mode": "APO (DR)", "q": 1.0, "type": "Hi-shelf" }
             },
             "right": {
-                "band0":  { "frequency": 16.0,    "gain": 0.5,  "mode": "APO (DR)", "q": 0.8, "type": "Bell" },
-                "band1":  { "frequency": 20.0,    "gain": 0.8,  "mode": "APO (DR)", "q": 0.8, "type": "Bell" },
+                "band0":  { "frequency": 16.0,    "gain": 0.5,  "mode": "APO (DR)", "q": 0.5, "type": "Bell" },
+                "band1":  { "frequency": 20.0,    "gain": 0.8,  "mode": "APO (DR)", "q": 0.5, "type": "Bell" },
                 "band2":  { "frequency": 25.0,    "gain": 1.0,  "mode": "APO (DR)", "q": 0.8, "type": "Bell" },
                 "band3":  { "frequency": 31.5,    "gain": 1.2,  "mode": "APO (DR)", "q": 0.8, "type": "Bell" },
                 "band4":  { "frequency": 40.0,    "gain": 0.6,  "mode": "APO (DR)", "q": 0.8, "type": "Bell" },
@@ -91,7 +91,7 @@
                 "band26": { "frequency": 6300.0,  "gain": -0.8, "mode": "APO (DR)", "q": 1.8, "type": "Bell" },
                 "band27": { "frequency": 8000.0,  "gain": -0.6, "mode": "APO (DR)", "q": 1.8, "type": "Bell" },
                 "band28": { "frequency": 10000.0, "gain": 0.5,  "mode": "APO (DR)", "q": 1.0, "type": "Bell" },
-                "band29": { "frequency": 12500.0, "gain": 0.8,  "mode": "APO (DR)", "q": 1.4, "type": "Bell" },
+                "band29": { "frequency": 12500.0, "gain": 1.0,  "mode": "APO (DR)", "q": 1.8, "type": "Bell" },
                 "band30": { "frequency": 16000.0, "gain": 1.2,  "mode": "APO (DR)", "q": 1.1, "type": "Bell" },
                 "band31": { "frequency": 20000.0, "gain": 1.2,  "mode": "APO (DR)", "q": 1.0, "type": "Hi-shelf" }
             }
