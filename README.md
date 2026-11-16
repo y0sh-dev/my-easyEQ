@@ -13,7 +13,8 @@ In short, this preset makes your sound:
 ### 1. Place the file
 Save your JSON file into this folder:
 ```bash
-~/.config/easyeffects/output/
+cp ./output/* ~/.config/easyeffects/output/ \
+&& cp ./input/* ~/.config/easyeffects/input/
 ```
 *(You can name it anything, like `my_preset.json`)*
 
