@@ -1,0 +1,84 @@
+{
+    "input": {
+        "blocklist": [],
+        "rnnoise#0": {
+            "bypass": false,
+            "enable-vad": true,
+            "release": 20.0,
+            "vad-threshold": 35.0
+        },
+        "gate#0": {
+            "attack": 5.0,
+            "bypass": false,
+            "curve-threshold": -45.0,
+            "curve-zone": -6.0,
+            "dry": -100.0,
+            "hpf-frequency": 10.0,
+            "hpf-mode": "off",
+            "lpf-frequency": 20000.0,
+            "lpf-mode": "off",
+            "makeup": 0.0,
+            "release": 150.0,
+            "wet": 0.0
+        },
+        "equalizer#0": {
+            "balance": 0.0,
+            "bypass": false,
+            "input-gain": -3.5,
+            "mode": "IIR",
+            "num-bands": 4,
+            "output-gain": 0.0,
+            "split-channels": false,
+            "left": {
+                "band0": { "frequency": 85.0, "gain": 0.0, "mode": "APO (DR)", "q": 0.707, "type": "Hi-pass" },
+                "band1": { "frequency": 250.0, "gain": -2.5, "mode": "APO (DR)", "q": 1.2, "type": "Bell" },
+                "band2": { "frequency": 2800.0, "gain": 3.5, "mode": "APO (DR)", "q": 1.2, "type": "Bell" },
+                "band3": { "frequency": 9000.0, "gain": 1.2, "mode": "APO (DR)", "q": 0.707, "type": "Hi-shelf" }
+            },
+            "right": {
+                "band0": { "frequency": 85.0, "gain": 0.0, "mode": "APO (DR)", "q": 0.707, "type": "Hi-pass" },
+                "band1": { "frequency": 250.0, "gain": -2.5, "mode": "APO (DR)", "q": 1.2, "type": "Bell" },
+                "band2": { "frequency": 2800.0, "gain": 3.5, "mode": "APO (DR)", "q": 1.2, "type": "Bell" },
+                "band3": { "frequency": 9000.0, "gain": 1.2, "mode": "APO (DR)", "q": 0.707, "type": "Hi-shelf" }
+            }
+        },
+        "compressor#0": {
+            "attack": 15.0,
+            "bypass": false,
+            "dry": -100.0,
+            "hpf-frequency": 10.0,
+            "hpf-mode": "off",
+            "lpf-frequency": 20000.0,
+            "lpf-mode": "off",
+            "makeup": 3.0,
+            "mode": "Downward",
+            "ratio": 4.0,
+            "release": 120.0,
+            "threshold": -20.0,
+            "wet": 0.0
+        },
+        "limiter#0": {
+            "alr": false,
+            "alr-attack": 5.0,
+            "alr-knee": 0.0,
+            "alr-release": 50.0,
+            "attack": 2.0,
+            "bypass": false,
+            "dithering": "None",
+            "external-sidechain": false,
+            "gain-boost": false,
+            "limit": -1.0,
+            "lookahead": 5.0,
+            "mode": "Herm Thin",
+            "oversampling": "None",
+            "release": 15.0
+        },
+        "plugins_order": [
+            "rnnoise#0",
+            "gate#0",
+            "equalizer#0",
+            "compressor#0",
+            "limiter#0"
+        ]
+    }
+}
